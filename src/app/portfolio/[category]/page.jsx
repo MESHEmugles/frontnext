@@ -28,7 +28,7 @@ const myPortfolio = ({params}) => {
             <Button text='See More' url='#' />
           </div>
           <div className={styles.imgContainer}>
-            <Image fill={true} src={item.image} className={styles.img} />
+            <Image fill={true} src={item.image} alt='' className={styles.img} />
           </div>
         </div>
       ))}
