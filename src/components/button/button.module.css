@@ -1,0 +1,18 @@
+.container{
+    padding: 15px;
+    cursor: pointer;
+    background-color: #53c28b;
+    border: none;
+    border-radius: 5px;
+    width: max-content;
+    color: white;
+    transition: all 0.45s ease-in;
+}
+.container:hover{
+    background-color: transparent;
+    border: 1px solid #53c28b;
+    color: #53c28b;
+  
+}
+
+
